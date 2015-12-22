@@ -1574,9 +1574,9 @@
 		<name>Zabbix Agent LTS</name>
 		<internal_name>zabbix-agent</internal_name>
 		<descr><![CDATA[
-			LTS (Long Term Support) release of Zabbix Monitoring agent. Zabbix LTS releases are supported for 
-			Zabbix customers during five (5) years i.e. 3 years of Full Support (general, critical and security issues) 
-			and 2 additional years of Limited Support (critical and security issues only). Zabbix LTS version release 
+			LTS (Long Term Support) release of Zabbix Monitoring agent. Zabbix LTS releases are supported for
+			Zabbix customers during five (5) years i.e. 3 years of Full Support (general, critical and security issues)
+			and 2 additional years of Limited Support (critical and security issues only). Zabbix LTS version release
 			will result in change of the first version number.<br />
 			More info in <a href="http://www.zabbix.com/life_cycle_and_release_policy.php">Zabbix Life Cycle and Release Policy</a>.
 			]]>
@@ -1601,9 +1601,9 @@
 		<name>Zabbix Proxy LTS</name>
 		<internal_name>zabbix-proxy</internal_name>
 		<descr><![CDATA[
-			LTS (Long Term Support) release of Zabbix agent proxy. Zabbix LTS releases are supported for 
-			Zabbix customers during five (5) years i.e. 3 years of Full Support (general, critical and security issues) 
-			and 2 additional years of Limited Support (critical and security issues only). Zabbix LTS version release 
+			LTS (Long Term Support) release of Zabbix agent proxy. Zabbix LTS releases are supported for
+			Zabbix customers during five (5) years i.e. 3 years of Full Support (general, critical and security issues)
+			and 2 additional years of Limited Support (critical and security issues only). Zabbix LTS version release
 			will result in change of the first version number.<br />
 			More info in <a href="http://www.zabbix.com/life_cycle_and_release_policy.php">Zabbix Life Cycle and Release Policy</a>.
 			]]>
@@ -1628,9 +1628,9 @@
 	<package>
 		<name>Zabbix-2 Agent</name>
 		<descr><![CDATA[
-			Standard release of Zabbix Monitoring agent. Standard Zabbix releases are supported for 
-			Zabbix customers during six (6) months of Full Support (general, critical and security issues) until 
-			the next Zabbix stable release, plus one (1) additional month of Limited Support (critical and security 
+			Standard release of Zabbix Monitoring agent. Standard Zabbix releases are supported for
+			Zabbix customers during six (6) months of Full Support (general, critical and security issues) until
+			the next Zabbix stable release, plus one (1) additional month of Limited Support (critical and security
 			issues only). Zabbix Standard version release will result in change of the second version number.<br />
 			More info in <a href="http://www.zabbix.com/life_cycle_and_release_policy.php">Zabbix Life Cycle and Release Policy</a>.
 			]]>
@@ -1653,9 +1653,9 @@
 	<package>
 		<name>Zabbix-2 Proxy</name>
 		<descr><![CDATA[
-			Standard release of Zabbix agent proxy. Standard Zabbix releases are supported for 
-			Zabbix customers during six (6) months of Full Support (general, critical and security issues) until 
-			the next Zabbix stable release, plus one (1) additional month of Limited Support (critical and security 
+			Standard release of Zabbix agent proxy. Standard Zabbix releases are supported for
+			Zabbix customers during six (6) months of Full Support (general, critical and security issues) until
+			the next Zabbix stable release, plus one (1) additional month of Limited Support (critical and security
 			issues only). Zabbix Standard version release will result in change of the second version number.<br />
 			More info in <a href="http://www.zabbix.com/life_cycle_and_release_policy.php">Zabbix Life Cycle and Release Policy</a>
 			]]>
@@ -1797,6 +1797,20 @@
 		<config_file>https://packages.pfsense.org/packages/config/ftpproxy/ftpproxy.xml</config_file>
 		<required_version>2.2</required_version>
 		<configurationfile>ftpproxy.xml</configurationfile>
+	</package>
+	<package>
+		<name>Zenner Client</name>
+		<internal_name>zenner-client</internal_name>
+		<maintainer>danhunsaker@gmail.com</maintainer>
+		<descr><![CDATA[Zenner is a central interface for your infrastructure.]]></descr>
+		<website>http://zenner.io/</website>
+		<category>Network Management</category>
+		<version>0.1.0</version>
+		<status>ALPHA</status>
+		<required_version>2.2</required_version>
+		<config_file>https://bitbucket.org/danhunsaker/zenner-client/raw/master/plugins/pfSense/zenner-client.xml</config_file>
+		<configurationfile>zenner-client.xml</configurationfile>
+		<port_category>net</port_category>
 	</package>
 </packages>
 </pfsensepkgs>
